@@ -1,0 +1,186 @@
+/* Estilos CSS */
+body {
+
+
+    background-image: url(./assets/taller\ lalo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /formulario/
+    .container {
+      max-width: 500px;
+      margin-left: auto;
+      /* Mueve el contenedor hacia la derecha */
+      margin-right: 0;
+      /* Elimina el margen derecho */
+      padding: 20px;
+      background-color: (219, 12, 12, 0.2);
+      border: #8595f0 solid 3px;
+      border-radius: 18px;
+    }
+  
+    .container h2 {
+      text-align: 470px;
+      margin-bottom: 20px;
+      font-family: 'Libre Baskerville', serif;
+      color: #9b0a77;
+  
+    }
+  
+  
+  
+    .texto1 h1 {
+      text-align: center;
+      color: rgb(245, 15, 84);
+      flex: 1;
+      background-color: #d5d9f3;
+      margin: 0%;
+      padding: 0%;
+      font-family: 'Libre Baskerville', serif;
+    }
+  
+    @media(max-width:767px) {
+      header {
+        background-color: rgb(145, 128, 240);
+      }
+    }
+  
+    @media (max-width: 767px) {
+      nav {
+        font-size: 16px;
+      }
+    }
+  
+    @media (min-width: 1200px) {
+      header {
+        width: 1200px;
+      }
+    }
+  }
+  
+  .titulo-1 {
+    text-align: center;
+    color: rgb(253, 128, 70);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+  
+  
+  }
+  
+  header {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  nav {
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  nav a:hover {
+    color: blue;
+  }
+  
+  #contact-form {
+    color: #e4dae1;
+  }
+  
+  footer {
+    color: antiquewhite
+  }
+  */calendario contacto/
+  #calendar{
+    border: 2px solid orange;
+    color:white;
+    background-color: red;
+    padding: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: darkorange;
+  }
+  
+ * /carousel/
+    .carousel{
+      width: 100%;
+    }
+    .carousel-inner{
+      height: 100px;
+    }
+    .carousel-item {
+     text-align: center;
+    }
+    
+    .carousel-item img {
+     max-height: 100%;
+     display: inline-block;
+     vertical-align: middle;
+    }
+    
+  
+    .carousel-control-prev,
+    .carousel-control-next{
+      display: none;
+    }
+    .carousel-item img{
+      width: 170px;
+      height: 70px;
+      border: 3px solid blue;
+      border-radius: 10px;
+      background-color: #7375fcda;
+  
+    }
+    .texto-seguros{
+      text-align: center;
+      background-color: #8595f03f;
+      font-size: 12px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: 3px solid blue;
+      border-radius: 15px;
+      color: #d5d9f3;
+    }
