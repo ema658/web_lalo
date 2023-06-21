@@ -1,0 +1,38 @@
+/* Estilos personalizados para el header y el nav */
+
+
+header {
+    background-color: #3368fa; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px;
+    margin: 0; /* Agrega esta línea para eliminar el margen */
+    border: none; /* Agrega esta línea para eliminar el borde */
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    margin-right: 20px;
+    width: 190px;
+    height: 150px;
+    margin: 10px;
+    margin-left: 140px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+
+}
+.nav-item{
+    margin-left: 10px;
+}
+.fondo{
+    background-image: url(assets/black-luxury-sport-sedan-car-standing-race-trace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+}

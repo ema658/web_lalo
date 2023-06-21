@@ -4,122 +4,152 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Document</title>
+
+  <title>taller lalo</title>
 </head>
 
 <body>
 
-  <div class="titulo-1">
-    <h1>Taller Automotriz Lalo</h1>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="./index.html">Inicio</a></li>
-      <li><a href="./servicios.html">Servicios</a></li>
-      <li><a href="./contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
+  <div class="fondo">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="servicios.html">
+          <img src="poner asset" alt="Logo">
+        </a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-  <!-- Aquí va el contenido de tu página -->
-  <div class="contenedor">
-    <div class="container">
-      <h2>Formulario de Contacto</h2>
-      <form id="contact-form" method="POST">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="name">Nombre:</label>
-              <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="surname">Apellido:</label>
-              <input type="text" class="form-control" id="surname" name="surname" required>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="phone">Teléfono:</label>
-              <input type="tel" class="form-control" id="phone" name="phone" required>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="message">Consulta:</label>
-          <textarea class="form-control" id="message" name="message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
+    </header>
+    <div class="titulo-1">
+      <h1>Taller Automotriz Lalo</h1>
     </div>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor debitis dolores reiciendis officia nisi
-      voluptatum exercitationem mollitia unde nam non, alias nostrum tenetur dolorem perspiciatis! Aperiam saepe
-      quaerat pariatur placeat!</p>
 
 
-<div class="texto-seguros">
-  <h3> Algunos de los seguros que trabajamos!</h3>
-</div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/allianz.jpg" alt="allianz">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/provincia seguros.jpg" alt="provincia seguros">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/sancor seguros.jpg" alt="sancor seguros">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/la caja.jpg" alt="la caja">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/victoria seguros.jpg" alt="victoria seguros">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/mercantil andina.jpg" alt="mercantil andina">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/rivadavia seguros.jpg" alt="rivadavia">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/san cristobal seguros.jpg" alt="san cristobal">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/la nueva seguros.jpg" alt="la nueva">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/zurich.jpg" alt="zurich">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/rio uruguay seguros.jpg" alt="rio uruguay">
+    <!-- Aquí va el contenido de tu página -->
+    <div class="contenedor">
+      <div class="container">
+        <h2>Formulario de Contacto</h2>
+        <form id="contact-form" method="POST">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="surname">Apellido:</label>
+                <input type="text" class="form-control" id="surname" name="surname" required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="phone">Teléfono:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Consulta:</label>
+            <textarea class="form-control" id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor debitis dolores reiciendis officia nisi
+        voluptatum exercitationem mollitia unde nam non, alias nostrum tenetur dolorem perspiciatis! Aperiam saepe
+        quaerat pariatur placeat!</p>
+
+
+      <div class="texto-seguros">
+        <h3> Algunos de los seguros que trabajamos!</h3>
+      </div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/allianz.jpg" alt="allianz">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/provincia seguros.jpg" alt="provincia seguros">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/sancor seguros.jpg" alt="sancor seguros">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/la caja.jpg" alt="la caja">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/victoria seguros.jpg" alt="victoria seguros">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/mercantil andina.jpg" alt="mercantil andina">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/rivadavia seguros.jpg" alt="rivadavia">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/san cristobal seguros.jpg" alt="san cristobal">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/la nueva seguros.jpg" alt="la nueva">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/zurich.jpg" alt="zurich">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/rio uruguay seguros.jpg" alt="rio uruguay">
+          </div>
         </div>
       </div>
     </div>
+
   </div>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
   <footer class="footer">
     Derechos reservados:World Pages &copy;2023
   </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
 </body>
 
 </html>
