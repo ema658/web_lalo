@@ -2,7 +2,7 @@
 
 
 header {
-    background-color: #3368fa; /* Cambia el color de fondo según tus preferencias */
+    background-color: #0e0d0d ; /* Cambia el color de fondo según tus preferencias */
     padding: 10px;
     margin: 0; /* Agrega esta línea para eliminar el margen */
     border: none; /* Agrega esta línea para eliminar el borde */
@@ -36,3 +36,76 @@ header {
     height: 700px;
     position: relative;
 }
+
+.titulo-1 {
+    text-align: center;
+    color: rgb(237, 238, 243);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+  
+  
+  }
+* /carousel/
+    .carousel{
+      width: 100%;
+    }
+    .carousel-inner{
+      height: 100px;
+    }
+    .carousel-item {
+     text-align: center;
+    }
+    
+    .carousel-item img {
+     max-height: 100%;
+     display: inline-block;
+     vertical-align: middle;
+    }
+    
+  
+    .carousel-control-prev,
+    .carousel-control-next{
+      display: none;
+    }
+    .carousel-item img{
+      width: 170px;
+      height: 70px;
+      border: 3px solid blue;
+      border-radius: 10px;
+      background-color: #7375fcda;
+  
+    }
+    .texto-seguros{
+      text-align: center;
+      background-color: #8595f03f;
+      font-size: 12px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: 3px solid blue;
+      border-radius: 15px;
+      color: #d5d9f3;
+    }
+    /*formulario*/
+    .container {
+      max-width: 500px;
+      margin-left: auto;
+      /* Mueve el contenedor hacia la derecha */
+      margin-right: 0;
+      /* Elimina el margen derecho */
+      padding: 20px;
+      background-color: (219, 12, 12, 0.2);
+      
+    }
+  
+    .container h2 {
+      text-align: 470px;
+      margin-bottom: 20px;
+      font-family: 'Libre Baskerville', serif;
+      color: #e2dae1;
+  
+    }
+    .form-group{
+        color: rgb(144, 136, 218);
+        background-color: transparent;
+    }
+ 
+      
